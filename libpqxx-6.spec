@@ -8,7 +8,7 @@ Release:        1%{?dist}
 
 License:        BSD
 URL:            http://pqxx.org/
-Source0:        https://github.com/jtv/libpqxx/archive/%{version}.tar.gz
+Source0:        https://github.com/jtv/libpqxx/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  gcc-c++
 BuildRequires:  libpq-devel
