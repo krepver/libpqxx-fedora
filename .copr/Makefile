@@ -1,3 +1,3 @@
 srpm:
-  spectool -g -R $(spec)
-  rpmbuild -bs $(spec)
+	spectool -g -R $(spec)
+	rpmbuild -bs $(spec)
